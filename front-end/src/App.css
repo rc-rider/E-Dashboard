@@ -1,0 +1,171 @@
+ *{
+  margin:0%;
+  padding: 0%;
+  
+}  
+.nav-ul li{
+  display:inline-block;
+  padding: 12px;
+  font-family:Georgia;
+}
+
+.nav-ul li a{
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+.footer{
+  overflow: hidden;
+  position:absolute;
+  bottom:0%;
+  text-align: center;
+  width: 100%;
+  background-color:#6ee1ca;
+  
+}
+.footer a {
+  text-decoration: none;
+  margin: 50px; 
+  color: white;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: Georgia;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: #6ee1ca;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 400px;
+  border:3px solid rgb(248, 78, 78) ;
+  border-radius: 30px;
+  
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+  height: 83vh;
+  
+}
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+table ,th, tr, td{
+  border: 3px solid blueviolet;
+  padding: 10px;
+
+}
+thead{
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.deletes{
+  border: none;
+  background-color: unset;
+  color: red;
+  font-size: 15px;
+  font-style: oblique;
+}
+.links{
+  text-decoration: none;
+  font-style: oblique;
+  color:blue;
+}
+
+
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 3px solid skyblue;
+  padding-left: 20px;
+}
+
+
+.invalid-input{
+  color:red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+.appbutton{
+  border-radius: 30px;
+  padding: 9px;
+  border:3px solid rgb(248, 78, 78) ;
+  background-color: #fff;
+  margin: 20px;
+  
+}
+
+.appbutton:hover{
+  background-image: linear-gradient(rgb(253, 253, 0),red 50%, skyblue 20%);
+
+}
+.register , .product{
+margin-left: 35%;
+margin-top: 130px;
+width: 40%;
+height: 75vh;
+align-items: center;
+/* overflow-x: hidden; */
+}
+
+
+
+.App{
+  
+  background-image: linear-gradient(rgb(96, 234, 140) 10%,yellow 50%,pink 90%);
+
+}
+
+
+
+.logo{
+  width: 46px;
+  float: left;
+  margin-left: 10px;
+  border-radius: 50%;
+  margin-top: 2px;
+  mix-blend-mode:color-dodge
+}
+
+.login{
+margin-left: 30%;
+margin-top: 100px;
+width: 40%;
+height: 77vh;
+align-items: center;
+}
+.nav-right{
+  text-align: right;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@media screen and (max-width:1200px)
+{
+    .App{
+        background-image: linear-gradient(rgb(0, 255, 187) 10%,pink 70%, yellow 80%);
+    }
+    .footer{
+      overflow: hidden;
+      position: bottom;
+    }
+    
+}
+
